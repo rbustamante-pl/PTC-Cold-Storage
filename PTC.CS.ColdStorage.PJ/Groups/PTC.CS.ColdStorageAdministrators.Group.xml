@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities
+ majorVersion="9"
+ minorVersion="1"
+ universal="password">
+    <Groups>
+        <Group
+         description=""
+         documentationContent=""
+         homeMashup=""
+         name="PTC.CS.ColdStorageAdministrators.Group"
+         projectName="PTC.CS.ColdStorage.PJ"
+         scimDisplayName=""
+         scimExternalId=""
+         scimId=""
+         tags="">
+            <avatar></avatar>
+            <DesignTimePermissions>
+                <Create></Create>
+                <Read></Read>
+                <Update></Update>
+                <Delete></Delete>
+                <Metadata></Metadata>
+            </DesignTimePermissions>
+            <RunTimePermissions></RunTimePermissions>
+            <VisibilityPermissions>
+                <Visibility>
+                    <Principal
+                     isPermitted="true"
+                     name="PTC.CS.ColdStorage.Org:SiteCreators"
+                     type="OrganizationalUnit"></Principal>
+                </Visibility>
+            </VisibilityPermissions>
+            <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
+            <ConfigurationTables></ConfigurationTables>
+            <Members>
+                <Members>
+                    <Member
+                     name="ColdStorageAdministrator"
+                     type="User"></Member>
+                </Members>
+            </Members>
+        </Group>
+    </Groups>
+</Entities>
